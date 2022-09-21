@@ -57,7 +57,7 @@ Buttonexec.MouseButton1Click:Connect(function()
 		Notification:Notify(
 			{Title = "Key System", Description = "The key came up successfully! Welcome to Yargomi Hub!"},
 			{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 3, Type = "default"})
-			lloadstring(game:HttpGet("https://github.com/YaroslavStar2010/YargomiHub/blob/main/YargomiHub.lua"))();
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/YaroslavStar2010/YargomiHub/main/YargomiHub.lua"))();
 			end
 		end)
 
