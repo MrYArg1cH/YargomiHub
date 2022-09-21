@@ -58,6 +58,8 @@ Buttonexec.MouseButton1Click:Connect(function()
 			{Title = "Key System", Description = "The key came up successfully! Welcome to Yargomi Hub!"},
 			{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 3, Type = "default"})
 			lloadstring(game:HttpGet("https://github.com/YaroslavStar2010/YargomiHub/blob/main/YargomiHub.lua"))();
+			end
+		end)
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(108, 0, 0)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(108, 0, 8))}
 UIGradient.Parent = Frame
